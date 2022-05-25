@@ -26,7 +26,7 @@ function App(){
             <BookState>
             <ScrollToTop />
             <Routes>
-                <Route path="/" element={<HomeContent />} />
+                <Route path="/BookedUp" element={<HomeContent />} />
                 <Route path="/fiction" element={<Fiction />} />
                 <Route path="/non-fiction" element={<NonFiction />} />
                 <Route path="/tech" element={<Tech />} />
