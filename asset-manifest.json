@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/BookedUp/static/css/main.4fed8a33.css",
+    "main.js": "/BookedUp/static/js/main.0cefa29c.js",
+    "static/media/Car1.png": "/BookedUp/static/media/Car1.57ef6de1e935edc3874d.png",
+    "static/media/Car2.png": "/BookedUp/static/media/Car2.7be693a0f0877e768d14.png",
+    "static/media/Car3.png": "/BookedUp/static/media/Car3.31bf061138d01c0a1777.png",
+    "static/media/logo.png": "/BookedUp/static/media/logo.9ab8c0bcfe23bca7f89a.png",
+    "static/media/logo.svg": "/BookedUp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BookedUp/index.html",
+    "main.4fed8a33.css.map": "/BookedUp/static/css/main.4fed8a33.css.map",
+    "main.0cefa29c.js.map": "/BookedUp/static/js/main.0cefa29c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fed8a33.css",
+    "static/js/main.0cefa29c.js"
+  ]
+}
