@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10; */
+    background-color: #EAEAEA;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.buy {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy .icon {
+    color: #55298B;
+    font-size: 2rem;
+    margin: 0 20px;
+    padding-bottom: 7px;
+}
+
+.icon:hover {
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart::before {
+    content: 'Cart';
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    color: #55298B;
+    position: absolute;
+    top: 40px;
+    left: 13px;
+    display: none;
+    width:max-content;
+    height: 20px;
+    /* color: aliceblue; */
+    /* background-color: #55298B; */
+    padding: 3px 10px;
+    border-radius: 0.2vw;
+    /* overflow-x: hidden; */
+}
+
+.cart:hover::before{
+    display: inherit;
+}
+
+.wishlist{
+    position: relative;
+}
+
+.wishlist::before {
+    content: 'Wishlist';
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    color: #55298B;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none;
+    width:max-content;
+    height: 20px;
+    /* color: aliceblue;
+    background-color: #55298B; */
+    padding: 3px 10px;
+    border-radius: 0.2vw;
+    /* overflow-x: hidden; */
+}
+
+.wishlist:hover::before{
+    display: inherit;
+}
+
+.links {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    padding: 3px;
+    background-color: #EAEAEA;
+    /* position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10; */
+}
+ 
+.links a {
+    margin: 8px 20px;
+    padding: 0 20px;
+}
+
+.links a:hover {
+    border-bottom: 3px solid #FED005;
+    width: max-content;
+    cursor: pointer;
+    color: #55298B;
+    font-size: bold;
+}
+
+.categories {
+    position: relative;
+}
+
+.down-arrow {
+    position: absolute;
+    left: 155px;
+    top: 112px;
+}
+
+.slide {
+    /* margin-top: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.slide img {
+    margin-top: 20px;
+    width: 60%;
+    height: 70%;
+    transition: all 0.5s ease-in;
+}
+
+.carousel {
+    position: relative;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font-size: 3rem;
+    color: #55298B;
+}
+
+.left-arrow:hover {
+    cursor: pointer;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    font-size: 3rem;
+    color: #55298B;
+}
+
+.right-arrow:hover {
+    cursor: pointer;
+}
+
+.arrival-container {
+    margin-top: 80px;
+    position: relative;
+}
+
+.arrivals {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin: 30px auto;
+    color: #55298B;
+    /* position: absolute; */
+    border-bottom: 3px solid #FED005;
+    width: max-content;
+}
+
+.menu {
+    background-color: white;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 172px;
+    left: -100%;
+    z-index: 2;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: center;
+}
+
+.comp a {
+    text-decoration: none;
+    color: #55298B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.comp {
+    list-style: none;
+    margin: 20px;
+    padding: 10px 3px;
+}
+
+.menu.active {
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.comp:hover {
+    background-color: #EAEAEA;
+    border-radius: 5px;
+}
+
+.dot-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dots {
+    background-color: #797474;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    /* display: inline-block; */
+    margin: 10px;
+}
+
+.dots:hover {
+    border: 2px solid #55298B;
+    background-color: white;
+}

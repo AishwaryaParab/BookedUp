@@ -1,0 +1,179 @@
+.detail-template {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 20px;
+}
+
+
+.book-img img {
+    margin: 20px;
+}
+
+.details {
+    margin: 20px;
+}
+
+.book-t {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: bolder;
+}
+
+.book-t span {
+    font-weight: 400;
+    font-size: bold;
+}
+
+.book-a {
+    margin: 5 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.review {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.review span {
+    color: #797474;
+}
+
+.review span:hover {
+    text-decoration: underline;
+}
+
+.star {
+    color: #FED005;
+    position: absolute;
+    top: 2px;
+}
+
+.rating {
+    margin-left: 25px;
+    font-size: 0.96rem;
+}
+
+.pricing {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.new {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.52rem;
+    color: #55298B;
+    margin: 0 5px;
+}
+
+.old {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #DA0B00;
+    margin: 0 5px;
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.availability {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.96rem;
+}
+
+.availability span {
+    color: #66B842;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #55298B;
+    font-weight: 400;
+    margin-right: 20px;
+    padding: 13px;
+    border-radius: 20px;
+    color: #FED005;
+    background-color: #55298B;
+}
+
+.btn:hover {
+    border: 2px solid #55298B;
+    color: #55298B;
+    background-color: white;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.tap {
+    /* margin: 0 5px; */
+    padding: 8px;
+    font-size: 1.75rem;
+    color:#FED005;
+}
+
+.btns p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 3px;
+}
+
+.buyNow {
+    margin-left: 8px;
+}
+
+.aboutBook {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin: 30px;
+    color: #55298B;
+    /* position: absolute; */
+    border-bottom: 2px solid #FED005;
+    width: max-content;
+}
+
+.knowmore p {
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+.bookreview {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin: 30px;
+    color: #55298B;
+    /* position: absolute; */
+    border-bottom: 2px solid #FED005;
+    width: max-content;
+}
+
+.user {
+    font-size: 1.75rem;
+}
+
+.bookreview-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 30px;
+}
+
+.review-name {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
